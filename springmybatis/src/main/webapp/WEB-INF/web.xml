@@ -18,7 +18,6 @@
           <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
         </listener>
 
-
         <!--
             html中form表单只支持GET与POST请求，而DELETE、PUT等method并不支持，
             spring3添加了一个过滤器 HiddenHttpMethodFilter，可以将这些请求转换为标准的http方法，

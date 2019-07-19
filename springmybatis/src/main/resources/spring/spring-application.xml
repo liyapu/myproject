@@ -11,7 +11,7 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <!--开启注解扫描的包-->
+    <!--开启spring IOC 注解扫描的包-->
     <context:component-scan base-package="com.lyp.my.learn">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
         <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
